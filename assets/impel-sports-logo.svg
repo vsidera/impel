@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Impel Sports</title>
+  <desc id="desc">Impel Sports logo with blue athlete mark, green motion swoosh, and the tagline we inspire you to thrive.</desc>
+  <path d="M34 126 C76 83 111 57 160 48 C111 78 78 112 51 165 Z" fill="#1289d1"/>
+  <path d="M28 95 C76 50 126 34 181 39 C128 47 85 67 43 109 Z" fill="#75bd2d"/>
+  <path d="M118 72 C101 103 89 132 85 171 C114 134 137 100 157 63 Z" fill="#0b85d2"/>
+  <circle cx="137" cy="24" r="19" fill="#1089d1"/>
+  <g fill="#030506" font-family="Impact, 'Arial Black', sans-serif" font-size="64" letter-spacing="2">
+    <text x="178" y="101">IMPEL SPORTS</text>
+  </g>
+  <g transform="translate(384 116)">
+    <path d="M0 0 H328 L318 42 H16 Z" fill="#8bd348"/>
+    <path d="M15 4 L40 42 H30 L5 4 Z" fill="#1096dc"/>
+    <path d="M32 4 L57 42 H47 L22 4 Z" fill="#1096dc"/>
+    <path d="M49 4 L74 42 H64 L39 4 Z" fill="#1096dc"/>
+    <text x="91" y="29" fill="#244121" font-family="'Trebuchet MS', Arial, sans-serif" font-size="25" font-style="italic" font-weight="700">we inspire you to thrive</text>
+  </g>
+</svg>
