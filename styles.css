@@ -230,9 +230,12 @@ h1 {
   max-width: 740px;
   margin-bottom: 22px;
   color: var(--navy-deep);
+  font-family: "Manrope", "Space Grotesk", sans-serif;
   font-size: clamp(4rem, 5.65vw, 6.2rem);
-  font-weight: 700;
+  font-weight: 800;
   line-height: .84;
+  letter-spacing: .012em;
+  text-shadow: 0 3px 0 rgba(3, 29, 64, .08);
   text-transform: uppercase;
 }
 h1 span { color: var(--green); }
