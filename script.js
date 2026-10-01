@@ -74,10 +74,10 @@ const updateScroll = () => {
     Math.min(1, window.scrollY / Math.max(1, window.innerHeight)).toFixed(4)
   );
   root.style.setProperty("--hero-stage-shift", String(-(heroCoverProgress * maxHeroLift).toFixed(2)) + "px");
-  const headerOffset = (header?.offsetHeight || 0) + 84;
+  const headerOffset = (header?.offsetHeight || 0) + 24;
   const activeSection = window.scrollY < window.innerHeight * 0.68
     ? "home"
-    : sections.reduce((current, section) => (section.offsetTop <= window.scrollY + headerOffset ? section.id : current), "home");
+    : (sections.find((section) => section.getBoundingClientRect().bottom > headerOffset)?.id || sections.at(-1)?.id || "home");
 
   setActiveNav(activeSection);
   header?.classList.toggle("scrolled", window.scrollY > 24);
